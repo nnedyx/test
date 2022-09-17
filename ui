@@ -2176,6 +2176,9 @@ do
         Parent = InnerFrame;
     });
 
+    Library.Watermark = WatermarkOuter;
+    Library.WatermarkText = WatermarkLabel;
+    Library:MakeDraggable(Library.Watermark);
 
 
 
